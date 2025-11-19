@@ -5,7 +5,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-30 w-full backdrop-blur supports-[backdrop-filter]:bg-white/40 bg-white/70 border-b border-slate-200/60">
+    <header className="sticky top-0 z-30 w-full backdrop-blur supports-[backdrop-filter]:bg-white/30 bg-white/60 border-b border-slate-200/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
@@ -26,7 +26,7 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden md:block">
-            <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm font-medium shadow hover:bg-slate-800 transition">
+            <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-gradient-to-tr from-emerald-400 via-teal-300 to-cyan-300 text-slate-900 px-4 py-2 text-sm font-medium shadow hover:brightness-105 transition">
               Book free call
             </a>
           </div>

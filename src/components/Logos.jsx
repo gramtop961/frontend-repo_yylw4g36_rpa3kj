@@ -18,7 +18,8 @@ const logos = [
 
 export default function Logos() {
   return (
-    <section className="bg-white py-10">
+    <section className="relative py-14">
+      <div className="absolute inset-0 -z-10 opacity-[0.45] bg-[radial-gradient(600px_circle_at_50%_-10%,rgba(236,72,153,0.12),transparent_60%),radial-gradient(800px_circle_at_10%_100%,rgba(59,130,246,0.12),transparent_55%)]" />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <p className="text-center text-sm text-slate-500">We streamline popular tools your team already uses</p>
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-5 gap-6 text-slate-400">
